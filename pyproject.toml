@@ -1,0 +1,18 @@
+
+[project]
+name = ""
+version = "0.1.0"
+description = ""
+authors = [{ name = "Hju Kneyck Flores", email = "hjucode@gmail.com" }]
+dependencies = [
+    "eopr @ git+https://github.com/huenique/eo-price-reader.git@main",
+    "litestar>=2.0.0b4",
+    "uvicorn[standard]>=0.23.1",
+]
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pyright>=1.1.318",
+]
